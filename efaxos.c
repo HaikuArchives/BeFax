@@ -8,7 +8,7 @@
 #include <signal.h>
 #include <stdio.h>
 #include <string.h>
-#include <socket.h> //For BeFax, added because of fd_set, thanks to Jens Kilian
+#include <posix/sys/select.h> //For BeFax, added because of fd_set, thanks to Jens Kilian
 #include <posix/sys/types.h>
 #include <posix/sys/stat.h>
 #include <posix/sys/time.h>
